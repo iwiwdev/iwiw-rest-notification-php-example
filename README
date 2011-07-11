@@ -1,4 +1,4 @@
-# LetˆltÈs
+# Let√∂lt√©s
 Git-tel:
 
 	git clone http://github.com/iwiwdev/iwiw-rest-notification-php-example.git
@@ -7,30 +7,30 @@ vagy svn-nel:
 
 	svn checkout http://svn.github.com/iwiwdev/iwiw-rest-notification-php-example.git
 
-vagy [letˆlthetı zip-ben](http://github.com/iwiwdev/iwiw-rest-notification-php-example/archives/master).
+vagy [let√∂lthet≈ë zip-ben](http://github.com/iwiwdev/iwiw-rest-notification-php-example/archives/master).
 
-# Konfigur·l·s
-* rest_notif_sample.php-ben add meg az alkalmaz·sod kulcs·t Ès titkos kulcs·t (ezeket a [fejlesztıi port·lon](http://dev.iwiw.hu), az alkalmaz·s adatlapj·rÛl tudhatod meg.
-Amennyiben nem ·llÌtott·l mÈg be kulcsokat az alkalmaz·shoz: "⁄j Oauth Consumer felvitele" --> jelszÛ megad·sa ut·n "Kulcsok megjelenÌtÈse" --> "MentÈs".
-Ha be·llÌtottad (elmentetted) m·r az alkalmaz·sodhoz a kulcsokat: "Bejˆvı Oauth kulcsok" --> jelszÛ megad·sa ut·n "Kulcsok megjelenÌtÈse".)
+# Konfigur√°l√°s
+* rest_notif_sample.php-ben add meg az alkalmaz√°sod kulcs√°t √©s titkos kulcs√°t (ezeket a [fejleszt≈ëi port√°lon](http://dev.iwiw.hu), az alkalmaz√°s adatlapj√°r√≥l tudhatod meg.
+Amennyiben nem √°ll√≠tott√°l m√©g be kulcsokat az alkalmaz√°shoz: "√öj Oauth Consumer felvitele" --> jelsz√≥ megad√°sa ut√°n "Kulcsok megjelen√≠t√©se" --> "Ment√©s".
+Ha be√°ll√≠tottad (elmentetted) m√°r az alkalmaz√°sodhoz a kulcsokat: "Bej√∂v≈ë Oauth kulcsok" --> jelsz√≥ megad√°sa ut√°n "Kulcsok megjelen√≠t√©se".)
   * $consumerKey='kulcs';
   * $consumerSecret='titkos_kulcs';
 
-iWiW HomokozÛval valÛ haszn·lat·hoz:
+iWiW Homokoz√≥val val√≥ haszn√°lat√°hoz:
 * $iwiwBaseURL = 'http://sandbox.iwiw.hu';
 * $iwiwBaseApiURL = 'http://api.sandbox.iwiw.hu';
   
-…les iWiW-en valÛ haszn·lathoz:
+√âles iWiW-en val√≥ haszn√°lathoz:
 * $iwiwBaseURL = 'http://iwiw.hu';
 * $iwiwBaseApiURL = 'http://api.iwiw.hu';
 
-# TelepÌtÈs
-* Tˆltsd le az [OpenSocial PHP Client Libraryt 1.1.1](http://code.google.com/p/opensocial-php-client/)
-* Az 'osapi' foldert teljes tartalm·val m·sold az iWiW pÈlda folderÈbe.
-* Az 'osapi/io/osapiRestIO.php' f·jlban a 'messages/{userId}/outbox/{msgId}' URI-t Ìrd ·t 'messages/{userId}/outbox'-ra
+# Telep√≠t√©s
+* T√∂ltsd le az [OpenSocial PHP Client Libraryt 1.1.1](http://code.google.com/p/opensocial-php-client/)
+* Az 'osapi' foldert teljes tartalm√°val m√°sold az iWiW p√©lda folder√©be.
+* Az 'osapi/io/osapiRestIO.php' f√°jlban a 'messages/{userId}/outbox/{msgId}' URI-t √≠rd √°t 'messages/{userId}/outbox'-ra
 * Add meg a kulcsaidat.
-* M·sold fel az egÈszet egy php t·mogat·ssal rendelkezı webszerverre.
-* Nyisd meg a rest_notif_sample.php-t tetszıleges browserrel.
+* M√°sold fel az eg√©szet egy php t√°mogat√°ssal rendelkez≈ë webszerverre.
+* Nyisd meg a rest_notif_sample.php-t tetsz≈ëleges browserrel.
 
 # Egyebek
-Szabadon felhaszn·lhatÛ Ès mÛdosÌthatÛ kÛd.
+Szabadon felhaszn√°lhat√≥ √©s m√≥dos√≠that√≥ k√≥d.
