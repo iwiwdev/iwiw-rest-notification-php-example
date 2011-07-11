@@ -16,13 +16,13 @@ Ha beállítottad (elmentetted) már az alkalmazásodhoz a kulcsokat: "Bejövő 
   * $consumerKey='kulcs';
   * $consumerSecret='titkos_kulcs';
 
-iWiW Homokozóval való használatához:
-* $iwiwBaseURL = 'http://sandbox.iwiw.hu';
-* $iwiwBaseApiURL = 'http://api.sandbox.iwiw.hu';
-  
-Éles iWiW-en való használathoz:
-* $iwiwBaseURL = 'http://iwiw.hu';
-* $iwiwBaseApiURL = 'http://api.iwiw.hu';
+* iWiW Homokozóval való használatához:
+  * $iwiwBaseURL = 'http://sandbox.iwiw.hu';
+  * $iwiwBaseApiURL = 'http://api.sandbox.iwiw.hu';
+
+* Éles iWiW-en való használathoz:
+  * $iwiwBaseURL = 'http://iwiw.hu';
+  * $iwiwBaseApiURL = 'http://api.iwiw.hu';
 
 # Telepítés
 * Töltsd le az [OpenSocial PHP Client Libraryt 1.1.1](http://code.google.com/p/opensocial-php-client/)
